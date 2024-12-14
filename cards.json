@@ -1,0 +1,25 @@
+[
+    {
+        "title": "Sign Up Form",
+        "image": "Assets/Images/SignUpForm.png",
+        "text": "A sign-up form with real-time form validation built with HTML, CSS, and JavaScript.",
+        "livePage": "https://lethargy2718.github.io/Sign-Up-Form/",
+        "github": "https://github.com/Lethargy2718/Sign-Up-Form/tree/main",
+        "hasSite": true
+    },
+    {
+        "title": "Etch-A-Sketch",
+        "image": "Assets/Images/EtchASketch.png",
+        "text": "An Etch-A-Sketch-inspired drawing web app built with HTML, CSS, and JavaScript. You can draw, erase, clear the canvas, and more.",
+        "livePage": "https://lethargy2718.github.io/Etch-A-Sketch/",
+        "github": "https://github.com/Lethargy2718/Etch-A-Sketch",
+        "hasSite": true
+    },
+    {
+        "title": "Balluvar",
+        "image": "Assets/Images/Balluvar.png",
+        "text": "A bullet hell game built with godot that I am currently working on.",
+        "github": "https://github.com/Lethargy2718/Balluvar",
+        "hasSite": false
+    }
+]

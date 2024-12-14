@@ -1,0 +1,118 @@
+@font-face {
+    font-family: 'quicksand';
+    src: url('fonts/quicksand-regular-webfont.woff2') format('woff2'),
+         url('fonts/quicksand-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+:root {
+    --clr-prim: #172554;
+    --clr-sec: #1e3a8a;
+    --clr-other: #1e40af;
+    --clr-text: #dbeafe;
+    --gap-main: 1rem;
+    --gap-sec: 1em;
+    --border-radius: 16px;
+}
+
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    font-family: quicksand;
+    color: var(--clr-text);
+    line-height: 1.5;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    background-color: var(--clr-prim);
+
+}
+
+.sidebar {
+    background-color: var(--clr-other);
+    box-shadow: 2px 0px 4px 4px rgb(0,0,0,0.3);
+}
+
+.right-side {
+    display: grid;
+    grid-template-rows: clamp(100px, 100px + 5vh ,150px) 1fr;
+    gap: var(--gap-main);
+}
+
+.header {
+    background-color: var(--clr-sec);
+    filter: drop-shadow(5px 4px 4px rgb(0,0,0,0.6));
+}
+
+form::before {
+    content: url(magnify.svg);
+    vertical-align: center;   
+}
+
+.main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: var(--gap-main);
+    padding: calc(2 * var(--gap-main));
+    
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: calc(3 * var(--gap-main));
+}
+
+.card {
+    position: relative;
+    background-color: var(--clr-sec);
+    display: grid;
+    grid-template-rows: 2rem 300px;
+    gap: 1em;
+    padding: 1em 1.5em;
+    border-radius: var(--border-radius);
+    font-size: 1.3rem;
+    box-shadow: 5px 5px 4px 4px rgb(0,0,0,0.6);
+}
+
+.card-img {
+    position: relative;
+    height: 300px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;  
+    border-radius: var(--border-radius);
+    box-shadow: 5px 5px 4px 4px rgb(0,0,0,0.6);
+    transition: all 0.1s ease-in-out;
+}
+
+.card-img:hover {
+    transform: translate(-16px, -16px) scale(1.05);
+    box-shadow: 6px 6px 4px 4px rgb(0,0,0,0.9);
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.card-links {
+    justify-self: end;
+    & > * {
+        padding: 0.25em;
+    }    
+}
+
+.card::before {
+    position: absolute;
+    content: '';
+    z-index: -1;
+    top: 0%;
+    left: -0.8%;
+    height: 100%;
+    width: 100%;
+    background-color: var(--clr-text);
+    border-radius: var(--border-radius);
+}
