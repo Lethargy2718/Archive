@@ -42,13 +42,12 @@ function AddCourse(title, org, completion, description, link) {
 
 light.addEventListener("click", (event) => {
     event.preventDefault();
-    document.documentElement.classList.remove("dark");
     document.documentElement.classList.add("light");
+
 })
 
 dark.addEventListener("click", (event) => {
     event.preventDefault();
-    document.documentElement.classList.add("dark");
     document.documentElement.classList.remove("light");
 })
 

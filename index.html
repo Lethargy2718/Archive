@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
@@ -13,50 +15,51 @@
 
 </head>
 <body>
-    <aside class="sidebar">
-        <nav>
-            <h1>My Portfolio</h1>
-            <a href="#"><i class="fa-solid fa-house"></i> Home</a>
-            <a href="#"><i class="fa-solid fa-house"></i> Home</a>
-            <a href="#"><i class="fa-solid fa-house"></i> Home</a>
-            <a href="#"><i class="fa-solid fa-house"></i> Home</a>
-            <a href="#"><i class="fa-solid fa-house"></i> Home</a>
-           
-        </nav>
-    </aside>
-    <div class="right-side">
-        <div class="header">
-            <div class="row">
-                <form>
-                    <img src="Assets/SVGs/magnify.svg">
-                    <input type="search" id="search" placeholder="Search" />
-                </form>
-                <div class="header-buttons">
-                    <a href="#" class="header-button dark">
-                        <i class="fas fa-moon"></i>
-                    </a>
-                    <a href="#" class="header-button light">
-                        <i class="fas fa-sun"></i> 
-                    </a>
-                    <a href="https://github.com/Lethargy2718" target="_blank" class="header-button">
-                        <i class="fab fa-github"></i>
-                    </a>
+    <div class="wrapper">
+        <aside class="sidebar">
+            <nav>
+                <h1>My Portfolio</h1>
+                <a href="#"><i class="fa-solid fa-house"></i>Home</a>
+                <a href="#"><i class="fa-solid fa-user"></i>About Me</a>
+                <a href="#"><i class="fa-solid fa-folder"></i>Projects</a>
+                <a href="#"><i class="fa-solid fa-cogs"></i>Skills</a>
+                <a href="#"><i class="fa-solid fa-envelope"></i>Contact</a>
+                <a href="#"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+            </nav>
+        </aside>
+        
+        <div class="right-side">
+            <div class="header">
+                <div class="row">
+                    <form>
+                        <img src="Assets/SVGs/magnify.svg">
+                        <input type="search" id="search" placeholder="Search" />
+                    </form>
+                    <div class="header-buttons">
+                        <a href="#" class="header-button dark">
+                            <i class="fas fa-moon"></i>
+                        </a>
+                        <a href="#" class="header-button light">
+                            <i class="fas fa-sun"></i> 
+                        </a>
+                        <a href="https://github.com/Lethargy2718" target="_blank" class="header-button">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
                 </div>
             </div>
-        </div>
+        
+            <div class="main">
+                <h2>My Projects</h2>
+                <h2>My Courses</h2>
+                <div class="projects"></div>
+                <div class="other"></div>
+            </div>
     
-        <div class="main">
-            <h2>My Projects</h2>
-            <h2>My Courses</h2>
-            <div class="projects"></div>
-            <div class="other"></div>
-        </div>
-
-        <div class="footer">
-            Built by Lethargy2718
+            <div class="footer">
+                Built by Lethargy2718
+            </div>
         </div>
     </div>
-
-    <script src="script.js"></script>
 </body>
 </html>
