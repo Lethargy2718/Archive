@@ -1,0 +1,51 @@
+[
+    {
+        "title": "CS50X",
+        "org": "Harvard",
+        "completion": "COMPLETED",
+        "description": "An introduction to computer science.",
+        "link": "https://cs50.harvard.edu/x/2024/"
+    },
+    {
+        "title": "CS50AI",
+        "org": "Harvard",
+        "completion": "COMPLETED",
+        "description": "An introduction to AI with Python.",
+        "link": "https://cs50.harvard.edu/ai/2024/"
+    },
+    {
+        "title": "STAT110 Probability",
+        "org": "Harvard",
+        "completion": "17/35",
+        "description": "An introductory course in probability, focusing on fundamental concepts such as probability theory, random variables, and distributions.",
+        "link": "https://projects.iq.harvard.edu/stat110/home"
+    },
+    {
+        "title": "TheOdinProject",
+        "org": "Erik Trautman",
+        "completion": "Node.js path; JS section",
+        "description": "A broad fullstack web development curriculum.",
+        "link": "https://www.theodinproject.com/dashboard"
+    },
+    {
+        "title": "18.01 Single Variable Calculus",
+        "org": "MIT",
+        "completion": "12/35",
+        "description": "An introductory calculus course that covers differentiation and integration of functions of one variable, with applications.",
+        "link": "https://ocw.mit.edu/courses/18-01-single-variable-calculus-fall-2006/"
+    },
+    {
+        "title": "18.02 Multivariable Calculus",
+        "org": "MIT",
+        "completion": "11/35",
+        "description": "This course covers vector and multivariable calculus. Topics include vectors and matrices, partial derivatives, double and triple integrals, and vector calculus in 2 and 3-space.",
+        "link": "https://ocw.mit.edu/courses/18-02-multivariable-calculus-fall-2007/"
+    },
+    {
+        "title": "18.06 Linear Algebra",
+        "org": "MIT",
+        "completion": "13/36",
+        "description": "A basic subject on matrix theory and linear algebra. Emphasis is given to topics that will be useful in other disciplines, including systems of equations, vector spaces, determinants, eigenvalues, similarity, and positive definite matrices.",
+        "link": "https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/"
+    } 
+]

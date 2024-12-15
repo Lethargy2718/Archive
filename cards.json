@@ -16,10 +16,51 @@
         "hasSite": true
     },
     {
+        "title": "Calculator",
+        "image": "Assets/Images/Calculator.png",
+        "text": "A calculator web app built with HTML, CSS, and JavaScript.",
+        "livePage": "https://lethargy2718.github.io/Calculator/",
+        "github": "https://github.com/Lethargy2718/Calculator",
+        "hasSite": true
+    },
+    {
+        "title": "Rock Paper Scissors",
+        "image": "Assets/Images/RPS.png",
+        "text": "A web app where you play rock-paper-scissors against your computer.",
+        "livePage": "https://lethargy2718.github.io/Rock-Paper-Scissors/",
+        "github": "https://github.com/Lethargy2718/Rock-Paper-Scissors/tree/main",
+        "hasSite": true
+    },
+    {
+        "title": "Landing Page",
+        "image": "Assets/Images/LandingPage.png",
+        "text": "My first page built with HTML and CSS after learning flexbox.",
+        "livePage": "https://lethargy2718.github.io/Landing-Page/",
+        "github": "https://github.com/Lethargy2718/Landing-Page",
+        "hasSite": true
+    },
+    {
         "title": "Balluvar",
         "image": "Assets/Images/Balluvar.png",
-        "text": "A bullet hell game built with godot that I am currently working on.",
+        "text": "A bullet hell built with godot that I am currently working on.",
+        "livePage": null,
         "github": "https://github.com/Lethargy2718/Balluvar",
+        "hasSite": false
+    },
+    {
+        "title": "Linear Algebra",
+        "image": "Assets/Images/linalg.png",
+        "text": "A matrix class implementation in python only using native libraries. Includes RREF, nullspace, and solving systems of linear equations.",
+        "livePage": null,
+        "github": "https://github.com/Lethargy2718/Matrix-Class",
+        "hasSite": false
+    },
+    {
+        "title": "Lifese",
+        "image": "Assets/Images/Lifese.png",
+        "text": "A self-improvement discord bot that organizes your life and keeps you on track towards your goals.",
+        "livePage": null,
+        "github": "https://github.com/Lethargy2718/Lifese",
         "hasSite": false
     }
 ]
