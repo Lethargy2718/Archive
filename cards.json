@@ -1,5 +1,13 @@
 [
     {
+        "title": "Library",
+        "image": "Assets/Images/Library.png",
+        "text": "A simple library app built with HTML, CSS, and JavaScript to track and manage your book collection.",
+        "livePage": "https://lethargy2718.github.io/Library/",
+        "github": "https://github.com/Lethargy2718/Library",
+        "hasSite": true
+    },
+    {
         "title": "Sign Up Form",
         "image": "Assets/Images/SignUpForm.png",
         "text": "A sign-up form with real-time form validation built with HTML, CSS, and JavaScript.",
