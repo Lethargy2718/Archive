@@ -1,5 +1,13 @@
 [
     {
+        "title": "Tic-Tac-HELL",
+        "image": "Assets/Images/TicTacHELL.png",
+        "text": "A hybrid of Tic-Tac-Toe and Bullet Hell, built with HTML, CSS, and JavaScript. Dodge obstacles, place markers, and outsmart the AI!",
+        "livePage": "https://lethargy2718.github.io/Tic-Tac-HELL/",
+        "github": "https://github.com/Lethargy2718/Tic-Tac-HELL",
+        "hasSite": true
+    },
+    {
         "title": "Library",
         "image": "Assets/Images/Library.png",
         "text": "A simple library app built with HTML, CSS, and JavaScript to track and manage your book collection.",
