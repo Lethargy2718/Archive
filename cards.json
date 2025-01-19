@@ -1,5 +1,13 @@
 [
     {
+        "title": "Restaurant Page",
+        "image": "Assets/Images/Restaurant.png",
+        "text": "A restaurant site built with HTML, CSS, and JavaScript using webpack.",
+        "livePage": "https://lethargy2718.github.io/Restaurant-Page/",
+        "github": "https://github.com/Lethargy2718/Restaurant-Page",
+        "hasSite": true
+    },
+    {
         "title": "Tic-Tac-HELL",
         "image": "Assets/Images/TicTacHELL.png",
         "text": "A hybrid of Tic-Tac-Toe and Bullet Hell, built with HTML, CSS, and JavaScript. Dodge obstacles, place markers, and outsmart the AI!",
