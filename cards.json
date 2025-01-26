@@ -2,7 +2,7 @@
     {
         "title": "Lifese 2.0",
         "image": "Assets/Images/Lifese-2.0.png",
-        "text": "A web version of the gamified self-improvement discord bot \"Lifese\" built with HTML, CSS, and JavaScript using Webpack.",
+        "text": "A web version of my gamified self-improvement discord bot \"Lifese\" built with HTML, CSS, and JavaScript using Webpack.",
         "livePage": "https://lethargy2718.github.io/Lifese-2.0/",
         "github": "https://github.com/Lethargy2718/Lifese-2.0",
         "hasSite": true
