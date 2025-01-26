@@ -1,8 +1,16 @@
 [
     {
+        "title": "Lifese 2.0",
+        "image": "Assets/Images/Lifese-2.0.png",
+        "text": "A web version of the gamified self-improvement discord bot \"Lifese\" built with HTML, CSS, and JavaScript using Webpack.",
+        "livePage": "https://lethargy2718.github.io/Lifese-2.0/",
+        "github": "https://github.com/Lethargy2718/Lifese-2.0",
+        "hasSite": true
+    },
+    {
         "title": "Restaurant Page",
         "image": "Assets/Images/Restaurant.png",
-        "text": "A restaurant site built with HTML, CSS, and JavaScript using webpack.",
+        "text": "A restaurant site built with HTML, CSS, and JavaScript using Webpack.",
         "livePage": "https://lethargy2718.github.io/Restaurant-Page/",
         "github": "https://github.com/Lethargy2718/Restaurant-Page",
         "hasSite": true

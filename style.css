@@ -183,11 +183,11 @@ form > img {
     overflow: hidden;  
     border-radius: var(--border-radius);
     box-shadow: var(--box-shadow);
-    transition: all 0.1s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .card-img:hover {
-    transform: translate(-16px, -16px) scale(1.05);
+    transform: translate(10px, -10px) scale(1.05);
     box-shadow: 6px 6px 4px 4px rgb(0,0,0,0.9);
     opacity: 0.5;
     cursor: pointer;
@@ -244,8 +244,6 @@ form > img {
     color: var(--clr-titles)
 }
 
-
-
 .course-completion {
     font-style: italic;
 }
@@ -270,14 +268,18 @@ form > img {
     display: grid;
     place-content: center;
     font-size: 1.3em;
+
+    & i {
+        font-size: 1em;
+    }
 }
 
 a:not(:has(img)) {
-    transition: all 0.1s ease-in-out;
+    transition: all 0.035s ease-in-out;
 }
 
 a:not(:has(img)):hover {
-    transform: scale(1.15);
+    transform: translate(8%, -8%) scale(1.1);
 }
 
 .card-links a {
