@@ -1,5 +1,13 @@
 [
     {
+        "title": "Weather App",
+        "image": "Assets/Images/Weather-App.png",
+        "text": "A responsive weather app that pulls real-time data from the Visual Crossing API. Built with HTML, CSS, and JavaScript.",
+        "livePage": "https://lethargy2718.github.io/Weather-App/",
+        "github": "https://github.com/Lethargy2718/Weather-App",
+        "hasSite": true
+    },
+    {
         "title": "Lifese 2.0",
         "image": "Assets/Images/Lifese-2.0.png",
         "text": "A web version of my gamified self-improvement discord bot \"Lifese\" built with HTML, CSS, and JavaScript using Webpack.",
