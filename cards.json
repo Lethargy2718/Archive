@@ -1,5 +1,13 @@
 [
     {
+        "title": "Battleship",
+        "image": "Assets/Images/Battleship.png",
+        "text": "A responsive Battleship game built with HTML, CSS, and TypeScript, featuring multiple AI types, AI vs. AI mode, player vs AI mode, and pass-device multiplayer.",
+        "livePage": "https://lethargy2718.github.io/Battleship/",
+        "github": "https://github.com/Lethargy2718/Battleship",
+        "hasSite": true
+    },
+    {
         "title": "Weather App",
         "image": "Assets/Images/Weather-App.png",
         "text": "A responsive weather app that pulls real-time data from the Visual Crossing API. Built with HTML, CSS, and JavaScript.",
