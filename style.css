@@ -147,7 +147,7 @@ form > img {
 .main {
     display: grid;
     grid-template-columns: 3fr 1fr;
-    grid-template-rows: 2rem 1fr;
+    grid-template-rows: auto auto auto 1fr;
     gap: calc(2 * var(--gap-main));
     padding: calc(2 * var(--gap-main));
 }
@@ -157,6 +157,7 @@ form > img {
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     grid-auto-rows: max-content;
     gap: calc(3 * var(--gap-main));
+    grid-row: 2 / -1;
 }
 
 .card {
@@ -236,12 +237,16 @@ form > img {
 .course-header {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     gap: 1em;
 }
 
 .course-title {
-    color: var(--clr-titles)
+    color: var(--clr-titles);
+    flex: 1;
+}
+
+.course-org {
+    text-align: center;
 }
 
 .course-completion {

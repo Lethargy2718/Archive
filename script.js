@@ -1,5 +1,6 @@
 const projects = document.querySelector(".projects")
-const other = document.querySelector(".other")
+const courses = document.querySelector(".courses")
+const books = document.querySelector(".books")
 const light = document.querySelector(".light")
 const dark = document.querySelector(".dark")
 
@@ -37,7 +38,24 @@ function AddCourse(title, org, completion, description, link) {
     <a href="${link}" class="course-link"><img src="Assets/SVGs/arrow.svg" alt="Link"></a>
     `
 
-    other.append(course)
+    courses.append(course)
+}
+
+function AddBook(title, author, completion, description, link) {
+    const book = document.createElement('div')
+    book.classList.add('course')
+
+    book.innerHTML = `
+    <div class="course-header">
+        <h3 class="course-title">${title}</h3>
+        <h5 class="course-org">${author}</h5>
+    </div> 
+    <span class="course-completion">${completion}</span>
+    <p class="course-desc">${description}</p>
+    <a href="${link}" class="course-link"><img src="Assets/SVGs/arrow.svg" alt="Link"></a>
+    `
+
+    books.append(book)
 }
 
 light.addEventListener("click", (event) => {
@@ -78,6 +96,22 @@ fetch('courses.json')
     .then(data => {
         data.forEach(course => {
             AddCourse(course.title, course.org, course.completion, course.description, course.link)
+        })
+    })
+    .catch(error => {
+        console.error("Error loading courses:", error)
+    })
+
+fetch('books.json')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`)
+        }
+        return response.json()
+    })
+    .then(data => {
+        data.forEach(book => {
+            AddBook(book.title, book.author, book.completion, book.description, book.link)
         })
     })
     .catch(error => {
