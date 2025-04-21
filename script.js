@@ -26,16 +26,16 @@ function AddCard(title, image, text, livePage, github, hasSite) {
 
 function AddCourse(title, org, completion, description, link) {
     const course = document.createElement('div')
-    course.classList.add('course')
+    course.classList.add('other__item')
 
     course.innerHTML = `
-    <div class="course-header">
-        <h3 class="course-title">${title}</h3>
-        <h5 class="course-org">${org}</h5>
+    <div class="other__item-header">
+        <h3 class="other__item-title">${title}</h3>
+        <h5 class="other__item-org">${org}</h5>
     </div> 
-    <span class="course-completion">${completion}</span>
-    <p class="course-desc">${description}</p>
-    <a href="${link}" class="course-link"><img src="Assets/SVGs/arrow.svg" alt="Link"></a>
+    <span class="other__item-completion">${completion}</span>
+    <p class="other__item-desc">${description}</p>
+    <a href="${link}" class="other__item-link"><img src="Assets/SVGs/arrow.svg" alt="Link"></a>
     `
 
     courses.append(course)
@@ -43,16 +43,16 @@ function AddCourse(title, org, completion, description, link) {
 
 function AddBook(title, author, completion, description, link) {
     const book = document.createElement('div')
-    book.classList.add('course')
+    book.classList.add('other__item')
 
     book.innerHTML = `
-    <div class="course-header">
-        <h3 class="course-title">${title}</h3>
-        <h5 class="course-org">${author}</h5>
+    <div class="other__item-header">
+        <h3 class="other__item-title">${title}</h3>
+        <h5 class="other__item-org">${author}</h5>
     </div> 
-    <span class="course-completion">${completion}</span>
-    <p class="course-desc">${description}</p>
-    <a href="${link}" class="course-link"><img src="Assets/SVGs/arrow.svg" alt="Link"></a>
+    <span class="other__item-completion">${completion}</span>
+    <p class="other__item-desc">${description}</p>
+    <a href="${link}" class="other__item-link"><img src="Assets/SVGs/arrow.svg" alt="Link"></a>
     `
 
     books.append(book)
@@ -115,5 +115,5 @@ fetch('books.json')
         })
     })
     .catch(error => {
-        console.error("Error loading courses:", error)
+        console.error("Error loading books:", error)
     })

@@ -223,41 +223,41 @@ form > img {
     padding: 1em;
 }
 
-.course {
+.other__item {
     display: flex;
     flex-direction: column;
     padding: 1.5em 0.7em;
     gap: 0.5em;
 }
 
-.course:not(:last-child) {
+.other__item:not(:last-child) {
     border-bottom: 2px solid var(--clr-prim);
 }
 
-.course-header {
+.other__item-header {
     display: flex;
     align-items: center;
     gap: 1em;
 }
 
-.course-title {
+.other__item-title {
     color: var(--clr-titles);
     flex: 1;
 }
 
-.course-org {
+.other__item-org {
     text-align: center;
 }
 
-.course-completion {
+.other__item-completion {
     font-style: italic;
 }
 
-.course-desc {
+.other__item-desc {
     font-size: 1.2em;
 }
 
-.course-link {
+.other__item-link {
     margin-right: 0.2em;
     margin-left: auto;
 
