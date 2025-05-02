@@ -56,19 +56,19 @@
         "hasSite": true
     },
     {
-        "title": "Etch-A-Sketch",
-        "image": "Assets/Images/EtchASketch.png",
-        "text": "An Etch-A-Sketch-inspired drawing web app built with HTML, CSS, and JavaScript. You can draw, erase, clear the canvas, and more.",
-        "livePage": "https://lethargy2718.github.io/Etch-A-Sketch/",
-        "github": "https://github.com/Lethargy2718/Etch-A-Sketch",
-        "hasSite": true
-    },
-    {
         "title": "Calculator",
         "image": "Assets/Images/Calculator.png",
         "text": "A calculator web app built with HTML, CSS, and JavaScript.",
         "livePage": "https://lethargy2718.github.io/Calculator/",
         "github": "https://github.com/Lethargy2718/Calculator",
+        "hasSite": true
+    },
+    {
+        "title": "Etch-A-Sketch",
+        "image": "Assets/Images/EtchASketch.png",
+        "text": "An Etch-A-Sketch-inspired drawing web app built with HTML, CSS, and JavaScript. You can draw, erase, clear the canvas, and more.",
+        "livePage": "https://lethargy2718.github.io/Etch-A-Sketch/",
+        "github": "https://github.com/Lethargy2718/Etch-A-Sketch",
         "hasSite": true
     },
     {
