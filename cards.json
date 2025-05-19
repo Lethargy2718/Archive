@@ -1,5 +1,13 @@
 [
     {
+        "title": "Homepage",
+        "image": "Assets/Images/Homepage.png",
+        "text": "A simple personal homepage built with HTML and CSS to practice responsive layouts and basic accessibility.",
+        "livePage": "https://lethargy2718.github.io/Homepage/",
+        "github": "https://github.com/Lethargy2718/Homepage",
+        "hasSite": true
+    },
+    {
         "title": "Battleship",
         "image": "Assets/Images/Battleship.png",
         "text": "A responsive Battleship game built with HTML, CSS, and TypeScript, featuring multiple AI types, AI vs. AI mode, player vs AI mode, and pass-device multiplayer.",
