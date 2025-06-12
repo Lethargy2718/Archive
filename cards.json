@@ -1,5 +1,13 @@
 [
     {
+        "title": "CV-Application",
+        "image": "Assets/Images/CV-application.png",
+        "text": "A CV builder with real-time preview, built with React.",
+        "livePage": "https://cv-application-three-rho.vercel.app/",
+        "github": "https://github.com/Lethargy2718/CV-Application",
+        "hasSite": true
+    },
+    {
         "title": "Homepage",
         "image": "Assets/Images/Homepage.png",
         "text": "A simple personal homepage built with HTML and CSS to practice responsive layouts and basic accessibility.",
