@@ -1,6 +1,14 @@
 [
     {
-        "title": "CV-Application",
+        "title": "Terraria Memory Cards",
+        "image": "Assets/Images/Terraria-Memory-Cards.png",
+        "text": "A Terraria-themed memory card game built with React.",
+        "livePage": "https://terraria-memory-cards.vercel.app/",
+        "github": "https://github.com/Lethargy2718/Terraria-Memory-Cards",
+        "hasSite": true
+    },
+    {
+        "title": "CV Application",
         "image": "Assets/Images/CV-application.png",
         "text": "A CV builder with real-time preview, built with React.",
         "livePage": "https://cv-application-three-rho.vercel.app/",
